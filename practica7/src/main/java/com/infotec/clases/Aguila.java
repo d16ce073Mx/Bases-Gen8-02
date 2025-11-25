@@ -9,4 +9,9 @@ public class Aguila extends Animal implements Volador {
      public void Volar(){
         System.out.println("Estoy volando....");
      }
+
+    public void volarBajito(){
+
+        System.out.println("Estoy volando bajito....");
+    }
 }
