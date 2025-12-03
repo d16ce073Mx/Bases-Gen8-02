@@ -6,9 +6,14 @@ public class Triangulo implements CalculoArea {
     private double lado3;
 
     public Triangulo(double lado1) {
-        this.lado1 = lado1;
-        this.lado2 = lado1;
-        this.lado3 = lado1;
+        if (lado1 > 0 ) {
+            this.lado1 = lado1;
+            this.lado2 = lado1;
+            this.lado3 = lado1;
+        }
+        else {
+            throw new IllegalArgumentException("El valor debe ser mayor que cero: " + lado1);
+        }
     }
 
     public Triangulo(double lado1, double lado2, double lado3) {

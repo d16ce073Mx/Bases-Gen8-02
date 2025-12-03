@@ -6,15 +6,22 @@ import java.util.ArrayList;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Triangulo triangulo1 = new Triangulo(30,20,25);
-        Triangulo triangulo2 = new Triangulo(12);
-        Triangulo triangulo3 = new Triangulo(20,10,15);
 
         List<Triangulo> listaTriangulos = new ArrayList<>();
+        Triangulo triangulo1 = new Triangulo(30,20,25);
+        Triangulo triangulo2 = new Triangulo(0);
+        Triangulo triangulo3 = new Triangulo(20,10,15);
+        int lado4 = 0;
+        if (lado4>0) {
+            Triangulo triangulo4 = new Triangulo(lado4);
+            listaTriangulos.add(triangulo4);
+        }
+
 
         listaTriangulos.add(triangulo1);
         listaTriangulos.add(triangulo2);
         listaTriangulos.add(triangulo3);
+
 
         //iterar sobre la lista de triangulos
         for(Triangulo triangulo: listaTriangulos){
