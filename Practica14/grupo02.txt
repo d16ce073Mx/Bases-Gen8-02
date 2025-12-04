@@ -1,8 +1,7 @@
-nombre, número de lista, departamento, resultado, promedio
-Porfirio, 42, cse, aprobado, 8.6
-Ramón, 21 años, ece, suspenso, 3.2
-Josefina, 23, cse, aprobado, 8.9
-Guadalupe, 45 años, ee, reprobado, 4.6
-Carmen, 65, cse, aprobado, 7.2
-Valeria, 23, yo, pase, 9.1
-Antonio, 68, yo, paso, 8.2
+Porfirio,42,cse,aprobado,8.6,
+Ramon,21,ece,suspenso,3.2,
+Josefina,23,cse,aprobado, 8.9,
+Guadalupe,45,ee, reprobado,4.6,
+Carmen,65,cse,aprobado,7.2,
+Valeria,23,yo,pase,9.1,
+Antonio,68,yo,paso,8.2,
