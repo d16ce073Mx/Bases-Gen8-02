@@ -5,34 +5,31 @@ import com.opencsv.CSVParserBuilder;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVReaderBuilder;
 
-
-import java.io.IOException;//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        File directory = new File("./");
-        System.out.println(directory.getAbsolutePath());
+            //Practica de lectura de archivos CSV
+            //Libreria OPENCSV
+            // Apache Commons
+        File directory = new File("/.");
+        System.out.println("Directorio: "+directory.getAbsolutePath());
 
         try {
+            FileReader fileReader = new FileReader("G02.csv");
+            CSVParser parser = (new CSVParserBuilder()).withSeparator(',').build();
+            CSVReader csvReader = (new CSVReaderBuilder(fileReader)).withCSVParser(parser).build();
 
-           FileReader filereader = new FileReader("grupo02.csv");
-
-            CSVParser parser = new CSVParserBuilder().withSeparator(',').build();
-
-            CSVReader csvReader = new CSVReaderBuilder(filereader).withCSVParser(parser).build();
-            String[] nextRecord;
-
-            // we are going to read data line by line
-            while ((nextRecord = csvReader.readNext()) != null) {
-                for (String cell : nextRecord) {
-                    System.out.print(cell + "\t");
+            String [] linea;
+                while  ((linea = csvReader.readNext())!=null){
+                    for (String dato: linea)
+                        System.out.println(dato);
                 }
-                System.out.println();
-            }
+
+
         }
-        catch (Exception e) {
+        catch (Exception e){
             e.printStackTrace();
         }
-
     }
 }
