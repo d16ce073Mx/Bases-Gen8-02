@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="607ac9fd-11c0-4344-a104-268f44eb24bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Practica17/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practica17/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practica17/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practica17/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practica17/src/main/java/org/infotec/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practica17/src/test/java/org/infotec/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaCSV/PracticaCSV.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica15.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practica15.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grupo02.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica17/src/main/java/org/infotec/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica17/src/main/java/org/infotec/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica17/src/main/java/org/infotec/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica17/src/main/java/org/infotec/Conexion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,42 +18,43 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "d16ce073Mx"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;d16ce073Mx&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/d16ce073Mx/Bases-Gen8-02.git",
-    "accountId": "82e55829-0dd5-4c7a-abe0-0d46f4b4084b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/d16ce073Mx/Bases-Gen8-02.git&quot;,
+    &quot;accountId&quot;: &quot;82e55829-0dd5-4c7a-abe0-0d46f4b4084b&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="36c6yxbAudVMLa9frzIUlRmYe7l" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/s3mx/Documents/INFOTEC/BasesTecnologicas/CDS/Modulo 4/Practicas/Practica15/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/s3mx/Documents/INFOTEC/BasesTecnologicas/CDS/Modulo 4/Practicas/Practica15/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="607ac9fd-11c0-4344-a104-268f44eb24bc" name="Changes" comment="" />
@@ -77,7 +70,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>33</line>
+          <line>38</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

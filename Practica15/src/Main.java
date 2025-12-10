@@ -24,6 +24,11 @@ public class Main {
                 while  ((linea = csvReader.readNext())!=null){
                     for (String dato: linea)
                         System.out.println(dato);
+                    //PHP y Python
+                    // Stream Flows
+                    // ETL -> Extracción, Transformación y Carga  (L- Load)
+                    // Snowflake, PowerBuilder, Oracle ODI
+                    //Datawarehouse-> Métodos estadísticos
                 }
 
 
