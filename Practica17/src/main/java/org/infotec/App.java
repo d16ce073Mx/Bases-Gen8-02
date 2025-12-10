@@ -9,6 +9,9 @@ public class App
         System.out.println("List of Employees");
         ListarRegistros lista = new ListarRegistros();
         lista.ListarRegistros();
+        InsertarRegistro insert = new InsertarRegistro();
+        insert.InsertarRegistros();
+        lista.ListarRegistros();
 
 
     }
